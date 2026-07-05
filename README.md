@@ -1,6 +1,6 @@
 # Databricks Terraform + GitHub Actions Starter
 
-This starter demonstrates a CI/CD flow.
+This starter demonstrates a CI/CD flow..
 
 GitHub Push
   -> terraform fmt
