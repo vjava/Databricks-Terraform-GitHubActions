@@ -1,13 +1,13 @@
-variable "workspace_url" { type=string }
+variable "workspace_url" { type = string }
 variable "token" {
-  type=string
-  sensitive=true
+  type      = string
+  sensitive = true
 }
 variable "catalog_name" {
-  type=string
-  default="engmetrics"
+  type    = string
+  default = "engmetrics"
 }
 provider "databricks" {
-  host=var.workspace_url
-  token=var.token
+  host  = var.workspace_url
+  token = var.token
 }
